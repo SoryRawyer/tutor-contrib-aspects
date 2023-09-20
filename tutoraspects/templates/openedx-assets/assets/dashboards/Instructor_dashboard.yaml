@@ -250,6 +250,8 @@ metadata:
   refresh_frequency: 0
   shared_label_colors:
     audit: '#1FA8C9'
+    count: '#1FA8C9'
+    registered: '#1FA8C9'
   show_native_filters: true
   timed_refresh_immune_slices: []
 position:
@@ -272,7 +274,7 @@ position:
     children: []
     id: CHART-GFCO8s2cxv
     meta:
-      chartId: 314
+      chartId: 45
       height: 50
       sliceName: Distribution Of Responses
       uuid: f1651c44-a8f4-4b44-ad49-962823009319
@@ -287,7 +289,7 @@ position:
     children: []
     id: CHART-Jr-gNVms2Q
     meta:
-      chartId: 111
+      chartId: 34
       height: 50
       sliceName: Enrollment Events Per Day
       uuid: bb1147cc-b7bc-44b7-b06a-79b0db6626aa
@@ -302,7 +304,7 @@ position:
     children: []
     id: CHART-OMy4wjRBWt
     meta:
-      chartId: 204
+      chartId: 52
       height: 50
       sliceName: Watched Video Segments
       uuid: 2985a9db-c338-4008-af52-2930b81ee2e5
@@ -317,7 +319,7 @@ position:
     children: []
     id: CHART-RTO33WE9FH
     meta:
-      chartId: 367
+      chartId: 894
       height: 50
       sliceName: Responses Per Problem
       uuid: a3e79162-4ace-4349-ab34-89aa60ae75ed
@@ -332,7 +334,7 @@ position:
     children: []
     id: CHART-Tej2oLPBAl
     meta:
-      chartId: 47
+      chartId: 24
       height: 50
       sliceName: Transcripts / Captions Per Video
       uuid: 6b830def-f3ca-4b4c-9455-7a7b7354bce8
@@ -343,11 +345,26 @@ position:
     - TAB-7PGDduCA7
     - ROW-BO2IHCiYF8
     type: CHART
+  CHART-aUvhd7DbPz:
+    children: []
+    id: CHART-aUvhd7DbPz
+    meta:
+      chartId: 908
+      height: 50
+      sliceName: Distinct forum users
+      uuid: feb323ad-c819-49ca-a336-584bd9ff1a2e
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-SNeKAJcjhd
+    - TAB-QGRuoE7g5
+    - ROW-1pfyzB3ZJA
+    type: CHART
   CHART-evjVO-ZSSd:
     children: []
     id: CHART-evjVO-ZSSd
     meta:
-      chartId: 40
+      chartId: 32
       height: 50
       sliceName: Enrollments By Enrollment Mode
       uuid: 05ed7102-5464-4e2f-86ae-31700b787cc3
@@ -362,7 +379,7 @@ position:
     children: []
     id: CHART-lTr8DL3XuI
     meta:
-      chartId: 166
+      chartId: 46
       height: 50
       sliceName: Distribution Of Hints Per Correct Answer
       uuid: ee94be4c-6fdd-4295-b43c-40890d6c549d
@@ -377,7 +394,7 @@ position:
     children: []
     id: CHART-o56v9yEe2I
     meta:
-      chartId: 345
+      chartId: 865
       height: 50
       sliceName: Distribution Of Problem Grades
       uuid: 4f7e3606-f5de-4643-97c0-bbb6340a3df2
@@ -392,7 +409,7 @@ position:
     children: []
     id: CHART-rnb6PSwCOS
     meta:
-      chartId: 87
+      chartId: 37
       height: 50
       sliceName: Currently Enrolled Learners Per Day
       uuid: ed2fe731-6544-422f-bc55-42f399f48b2c
@@ -407,7 +424,7 @@ position:
     children: []
     id: CHART-tWnaoVNNTH
     meta:
-      chartId: 30
+      chartId: 47
       height: 50
       sliceName: Distribution Of Attempts
       uuid: db90930f-f16e-4c32-8050-0e4abae28f4c
@@ -418,11 +435,26 @@ position:
     - TAB-pOd4znTAV
     - ROW-GKMT8uEu6K
     type: CHART
+  CHART-trR-en5q2n:
+    children: []
+    id: CHART-trR-en5q2n
+    meta:
+      chartId: 922
+      height: 50
+      sliceName: Posts per user
+      uuid: bc191ce7-f39d-48db-86a9-d19949f4211d
+      width: 8
+    parents:
+    - ROOT_ID
+    - TABS-SNeKAJcjhd
+    - TAB-QGRuoE7g5
+    - ROW-1pfyzB3ZJA
+    type: CHART
   CHART-w-k4N2T_L8:
     children: []
     id: CHART-w-k4N2T_L8
     meta:
-      chartId: 352
+      chartId: 879
       height: 50
       sliceName: Course Grade Distribution
       uuid: f9adbc85-1f50-4c04-ace3-31ba7390de5e
@@ -568,6 +600,18 @@ position:
     - TABS-SNeKAJcjhd
     id: ROOT_ID
     type: ROOT
+  ROW-1pfyzB3ZJA:
+    children:
+    - CHART-aUvhd7DbPz
+    - CHART-trR-en5q2n
+    id: ROW-1pfyzB3ZJA
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-SNeKAJcjhd
+    - TAB-QGRuoE7g5
+    type: ROW
   ROW-7H84y2hXCn:
     children:
     - MARKDOWN-Cs_pVxjPWd
@@ -772,6 +816,18 @@ position:
     - ROOT_ID
     - TABS-SNeKAJcjhd
     type: TAB
+  TAB-QGRuoE7g5:
+    children:
+    - ROW-1pfyzB3ZJA
+    id: TAB-QGRuoE7g5
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Forum interactions
+    parents:
+    - ROOT_ID
+    - TABS-SNeKAJcjhd
+    type: TAB
   TAB-pOd4znTAV:
     children:
     - ROW-7H84y2hXCn
@@ -793,6 +849,7 @@ position:
     - TAB-pOd4znTAV
     - TAB-7PGDduCA7
     - TAB-CLiLC4zxo
+    - TAB-QGRuoE7g5
     id: TABS-SNeKAJcjhd
     meta: {}
     parents:
