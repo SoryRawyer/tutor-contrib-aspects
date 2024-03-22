@@ -23,8 +23,29 @@ metadata:
         - 894
         - 908
         - 922
+        - 1824
         scope: global
       id: 1804
+    '1824':
+      crossFilters:
+        chartsInScope:
+        - 24
+        - 25
+        - 32
+        - 34
+        - 37
+        - 45
+        - 46
+        - 47
+        - 52
+        - 865
+        - 879
+        - 894
+        - 908
+        - 922
+        - 1804
+        scope: global
+      id: 1824
     '32':
       crossFilters:
         chartsInScope:
@@ -42,6 +63,7 @@ metadata:
         - 908
         - 922
         - 1804
+        - 1824
         scope: global
       id: 32
     '34':
@@ -61,6 +83,7 @@ metadata:
         - 908
         - 922
         - 1804
+        - 1824
         scope: global
       id: 34
   color_scheme: ''
@@ -85,6 +108,7 @@ metadata:
     - 908
     - 922
     - 1804
+    - 1824
     scope:
       excluded: []
       rootPath:
@@ -330,8 +354,8 @@ metadata:
     type: NATIVE_FILTER
   refresh_frequency: 0
   shared_label_colors:
-    All pages viewed: '#5AC189'
-    At least one page viewed: '#1FA8C9'
+    All videos viewed: '#666666'
+    At least one video viewed: '#454E7C'
   timed_refresh_immune_slices: []
 position:
   CHART-AZZnl_lpMv:
@@ -438,6 +462,21 @@ position:
     - TABS-SNeKAJcjhd
     - TAB-7PGDduCA7
     - ROW-BO2IHCiYF8
+    type: CHART
+  CHART-Xl9h0PskNd:
+    children: []
+    id: CHART-Xl9h0PskNd
+    meta:
+      chartId: 1824
+      height: 50
+      sliceName: Video engagement by section/subsection
+      uuid: 21861f47-9e8b-4715-b1ff-e7f4aa595c14
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-SNeKAJcjhd
+    - TAB-Ezm2OteFC
+    - ROW-TbSB2a1Rt7
     type: CHART
   CHART-evjVO-ZSSd:
     children: []
@@ -765,6 +804,17 @@ position:
     - TABS-SNeKAJcjhd
     - TAB-4Z1kfBQZO
     type: ROW
+  ROW-TbSB2a1Rt7:
+    children:
+    - CHART-Xl9h0PskNd
+    id: ROW-TbSB2a1Rt7
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-SNeKAJcjhd
+    - TAB-Ezm2OteFC
+    type: ROW
   ROW-chsNWRRd4:
     children:
     - MARKDOWN-EVIRENCcGc
@@ -897,6 +947,18 @@ position:
     - ROOT_ID
     - TABS-SNeKAJcjhd
     type: TAB
+  TAB-Ezm2OteFC:
+    children:
+    - ROW-TbSB2a1Rt7
+    id: TAB-Ezm2OteFC
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Video Engagement
+    parents:
+    - ROOT_ID
+    - TABS-SNeKAJcjhd
+    type: TAB
   TAB-NR4UTAs9K:
     children:
     - ROW-yKhiUYNdDL
@@ -962,6 +1024,7 @@ position:
     - TAB-eE0OQxuju
     - TAB-nXpinnLEX
     - TAB-4Z1kfBQZO
+    - TAB-Ezm2OteFC
     id: TABS-SNeKAJcjhd
     meta: {}
     parents:
